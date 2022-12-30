@@ -15,4 +15,8 @@ module.exports = {
     'prettier',
     'plugin:prettier/recommended',
   ],
+  rules: {
+    'react/react-in-jsx-scope': 'off',
+    '@typescript-eslint/no-var-requires': 'off',
+  },
 };
