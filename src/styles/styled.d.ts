@@ -16,11 +16,11 @@ declare module 'styled-components' {
       black: string;
     };
     font: {
-      xsmall: css;
-      small: css;
-      medium: css;
-      large: css;
-      xlarge: css;
+      xsmall: string;
+      small: string;
+      medium: string;
+      large: string;
+      xlarge: string;
     };
   }
 }
