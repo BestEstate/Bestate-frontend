@@ -20,12 +20,17 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.(ico|gif|png|jpg|jpeg,svg)$/i,
+        test: /\.(ico|gif|png|jpg|jpeg|svg)$/i,
         type: 'asset/resource',
       },
       {
         test: /\.(woff(2)?|eot|ttf|otf)$/,
         type: 'asset/inline',
+      },
+      {
+        test: /\.svg$/,
+        type: 'javascript/auto',
+        use: ['@svgr/webpack'],
       },
     ],
   },
