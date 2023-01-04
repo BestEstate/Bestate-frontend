@@ -15,6 +15,27 @@ export const GlobalStyle = createGlobalStyle`
       display: none;
     }
   }
+
+  button,
+  input,
+  select,
+  textarea {
+      color: inherit;
+      font: inherit;
+      margin: 0;
+      background: #fff;
+      border: none;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    &:focus {
+      outline: none;
+    }
+  }
+  
   
 
   @font-face {

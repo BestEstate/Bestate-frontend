@@ -13,6 +13,7 @@ const color = {
   gray8: '#212529',
   grap9: '#1B1B1B',
   black: '#000000',
+  green1: '#2f735a',
 };
 
 const font = {

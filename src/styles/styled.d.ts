@@ -14,6 +14,7 @@ declare module 'styled-components' {
       gray6: string;
       gray7: string;
       black: string;
+      green1: string;
     };
     font: {
       xsmall: string;
