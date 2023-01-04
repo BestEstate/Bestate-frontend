@@ -11,7 +11,6 @@ const Logo = () => {
 
 const Wrapper = styled.div`
   position: relative;
-  margin-right: 2rem;
 `;
 
 export default Logo;

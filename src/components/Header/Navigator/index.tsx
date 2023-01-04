@@ -1,7 +1,8 @@
 import styled from 'styled-components';
-import { AvatarXsmall, Dropdown } from '../../../assets';
+import { AvatarXsmall, Dropdown1 } from '../../../assets';
+import { device } from '../../../styles/theme';
 
-const isLoggedIn = true;
+const isLoggedIn = false;
 const userName = '드림하우스';
 
 const Navigator = () => {
@@ -14,9 +15,8 @@ const Navigator = () => {
           <UserInfoWrapper>
             <AvatarXsmall />
             <div>{userName}</div>
-            <Dropdown />
+            <Dropdown1 />
           </UserInfoWrapper>
-          <div></div>
         </>
       ) : (
         <div>로그인</div>
@@ -38,8 +38,15 @@ const Wrapper = styled.div`
   }
 
   & > div {
-    padding-left: 10px;
-    margin-left: 10px;
+    margin-left: 1.5rem;
+  }
+
+  ${device.tablet} {
+    margin-top: 0.5rem;
+  }
+
+  ${device.mobile} {
+    display: none;
   }
 `;
 
@@ -50,7 +57,7 @@ const UserInfoWrapper = styled.div`
   font-size: ${(props) => props.theme.font.small};
 
   & > * {
-    margin-left: 5px;
+    margin-left: 0.5rem;
   }
 `;
 
