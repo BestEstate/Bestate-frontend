@@ -17,11 +17,14 @@ declare module 'styled-components' {
       green1: string;
     };
     font: {
+      xxsmall: string;
       xsmall: string;
       small: string;
       medium: string;
       large: string;
       xlarge: string;
+      xxlarge: string;
+      xxxlarge: string;
     };
   }
 }

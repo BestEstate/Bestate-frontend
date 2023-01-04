@@ -17,11 +17,14 @@ const color = {
 };
 
 const font = {
-  xsmall: '0.8rem',
+  xxsmall: '0.5rem',
+  xsmall: '0.75rem',
   small: '1rem',
-  medium: '1.3rem',
-  large: '2rem',
-  xlarge: 'font-sie: 3rem',
+  medium: '1.25rem',
+  large: '1.5rem',
+  xlarge: '1.75rem',
+  xxlarge: '2rem',
+  xxxlarge: '3rem',
 };
 
 const mediaQuery = (maxWidth: number): string => `@media (max-width: ${maxWidth}px)`;
