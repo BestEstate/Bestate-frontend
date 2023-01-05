@@ -14,13 +14,17 @@ declare module 'styled-components' {
       gray6: string;
       gray7: string;
       black: string;
+      green1: string;
     };
     font: {
-      xsmall: css;
-      small: css;
-      medium: css;
-      large: css;
-      xlarge: css;
+      xxsmall: string;
+      xsmall: string;
+      small: string;
+      medium: string;
+      large: string;
+      xlarge: string;
+      xxlarge: string;
+      xxxlarge: string;
     };
   }
 }
