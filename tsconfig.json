@@ -14,7 +14,9 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": { "@/*": ["./src/*"] }
   },
   "exclude": ["node_modules", "assets", "build"]
 }
